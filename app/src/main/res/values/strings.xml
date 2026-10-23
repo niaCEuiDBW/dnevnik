@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">reCord</string>
+    <string name="menu_desc">Меню</string>
+    <string name="search_hint">Поиск по тексту или #хэштегу</string>
+    <string name="how_was_your_day">Как прошёл день?</string>
+    <string name="hashtags_hint">Хэштеги через пробел</string>
+    <string name="btn_add_photo">Добавить фото</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="fab_desc">Добавить заметку</string>
+    <string name="nav_diary">reCord</string>
+    <string name="nav_people">Люди</string>
+    <string name="nav_settings">Опции</string>
+    <string name="menu_archive">Архив</string>
+    <string name="menu_trash">Корзина</string>
+</resources>

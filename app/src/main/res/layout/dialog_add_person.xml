@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Создание/Редактирование анкеты"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Имя (Обязательно)"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Рост (см)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="День рождения"
+            android:inputType="text"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etHobbies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Хобби и увлечения"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etMusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Любимая музыка"
+            android:inputType="text"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etMovies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Любимые фильмы"
+            android:inputType="text"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etWishlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Что подарить"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/btnCancelPerson"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="Отмена"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btnSavePerson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Сохранить" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
